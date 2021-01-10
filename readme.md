@@ -32,14 +32,14 @@ The goal of this assignment is to store and create an index over question object
 
 #### Hosted sample App
 The app is hosted on Netify
-- Access the API via https://pencil-be-app.netify.com/api/v1
+- Access the API via https://tosin-pencil.netlify.com/api/v1
 - Database is hosted on [Mongo Atlas](https://cloud.mongodb.com/)
 
 #### Example Usage
-To query the database make a get request to the route `https://pencil-be-app.netify.com/api/v1/search?q=<name of topic>`
+To query the database make a get request to the route `https://tosin-pencil.netlify.com/api/v1/search?q=<name of topic>`
 
 ###### Example 1:
-`https://pencil-be-app.netify.com/api/v1/search?q=Reproduction`
+`https://tosin-pencil.netlify.com/api/v1/search?q=Reproduction`
 should return
 ```JSON
 {
@@ -49,7 +49,7 @@ should return
 ```
 
 ###### Example 2:
-`https://pencil-be-app.netify.com/api/v1/search?q=Molecular Genetics`
+`https://tosin-pencil.netlify.com/api/v1/search?q=Molecular Genetics`
 should return
 ```JSON
 {
@@ -59,7 +59,7 @@ should return
 ```
 
 ###### Example 3:
-`https://pencil-be-app.netify.com/api/v1/search?q=Molecular Genetics`
+`https://tosin-pencil.netlify.com/api/v1/search?q=Molecular Genetics`
 should return
 ```JSON
 {
