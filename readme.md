@@ -28,11 +28,11 @@ The goal of this assignment is to store and create an index over question object
 #### Endpoints available
 | Endpoints                 | Method  | Description                                         |
 |---------------------------|---------|-----------------------------------------------------|
-|  /search?q=query          | GET     | returns an array of question numbers that contain an annotation which is anywhere in the subtree of the query topic|
+|  /search?q=name of topic          | GET     | returns an array of question numbers that contain an annotation which is anywhere in the subtree of the query topic|
 
 #### Hosted sample App
 The app is hosted on Heroku
-- Access the API via https://tosin-pencil.herokuapp.com/api/v1
+- Access the API via https://tosin-pencil.herokuapp.com/api/v1/search
 - Database is hosted on [Mongo Atlas](https://cloud.mongodb.com/)
 
 #### Example Usage
