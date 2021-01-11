@@ -31,15 +31,15 @@ The goal of this assignment is to store and create an index over question object
 |  /search?q=query          | GET     | returns an array of question numbers that contain an annotation which is anywhere in the subtree of the query topic|
 
 #### Hosted sample App
-The app is hosted on Netify
-- Access the API via https://tosin-pencil.netlify.com/api/v1
+The app is hosted on Heroku
+- Access the API via https://tosin-pencil.herokuapp.com/api/v1
 - Database is hosted on [Mongo Atlas](https://cloud.mongodb.com/)
 
 #### Example Usage
-To query the database make a get request to the route `https://tosin-pencil.netlify.com/api/v1/search?q=<name of topic>`
+To query the database make a get request to the route `https://tosin-pencil.herokuapp.com/api/v1/search?q=<name of topic>`
 
 ###### Example 1:
-`https://tosin-pencil.netlify.com/api/v1/search?q=Reproduction`
+`https://tosin-pencil.herokuapp.com/api/v1/search?q=Reproduction`
 should return
 ```JSON
 {
@@ -49,7 +49,7 @@ should return
 ```
 
 ###### Example 2:
-`https://tosin-pencil.netlify.com/api/v1/search?q=Molecular Genetics`
+`https://tosin-pencil.herokuapp.com/api/v1/search?q=Molecular Genetics`
 should return
 ```JSON
 {
@@ -59,7 +59,7 @@ should return
 ```
 
 ###### Example 3:
-`https://tosin-pencil.netlify.com/api/v1/search?q=Molecular Genetics`
+`https://tosin-pencil.herokuapp.com/api/v1/search?q=Molecular Genetics`
 should return
 ```JSON
 {
