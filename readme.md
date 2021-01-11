@@ -7,7 +7,7 @@ The goal of this assignment is to store and create an index over question object
 - Node
 - MongoDB
 
-#### Installation
+### Installation
 
 1. Clone the repo
    ```sh
@@ -25,17 +25,17 @@ The goal of this assignment is to store and create an index over question object
 5. Start mongodb with `mongod`
 6. Start the server with `npm start`
 
-#### Endpoints available
+### Endpoints available
 | Endpoints                 | Method  | Description                                         |
 |---------------------------|---------|-----------------------------------------------------|
 |  /search?q=name of topic          | GET     | returns an array of question numbers that contain an annotation which is anywhere in the subtree of the query topic|
 
-#### Hosted sample App
+### Hosted sample App
 The app is hosted on Heroku
 - Access the API via https://tosin-pencil.herokuapp.com/api/v1/search
 - Database is hosted on [Mongo Atlas](https://cloud.mongodb.com/)
 
-#### Example Usage
+### Example Usage
 To query the database make a get request to the route `https://tosin-pencil.herokuapp.com/api/v1/search?q=<name of topic>`
 
 ###### Example 1:
