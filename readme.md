@@ -1,5 +1,5 @@
 
-## Pencil Backend Application
+## Realtime Notes Backend
 The goal of this assignment is to store and create an index over question objects in MongoDB, and write a NodeJS + Express based server that exposes a RESTful API to query the index and return questions that match the query.
 
 #### Built With
@@ -11,7 +11,7 @@ The goal of this assignment is to store and create an index over question object
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/tosinbot/pencil-be-app.git
+   git clone https://github.com/tosinbot/realtime-notes-backend.git
    ```
 3. Install NPM packages
    ```sh
@@ -29,6 +29,10 @@ The goal of this assignment is to store and create an index over question object
 | Endpoints                 | Method  | Description                                         |
 |---------------------------|---------|-----------------------------------------------------|
 |  /search?q=name of topic          | GET     | returns an array of question numbers that contain an annotation which is anywhere in the subtree of the query topic|
+
+
+### Integration
+Frontend application built with Angular can be found here - https://github.com/tosinbot/realtime-notes-app
 
 ### Hosted sample App
 The app is hosted on Heroku
